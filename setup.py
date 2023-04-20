@@ -8,12 +8,9 @@ setup(
     author_email = "gustavo@xcode.com",
     maintainer = "Gustavo Arzola",
     maintainer_email = "gustavo@xcode.com",
-    url = "https://bitbucket.org/garzola/cidrlist",
+    url = "https://github.com/garzola/cidrlist",
     description = "Classless Internet Domain Routing list implementation",
     long_description = open('README.md', 'rt').read(),
 
     py_modules = ['cidrlist',],
-# install_requires=[
-#        "ipaddr >= 4.1.11",
-#        ],
-    )
+)
