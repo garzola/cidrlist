@@ -3,7 +3,7 @@ requires = ["setuptools>=61.0"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "cidrlist_garzola"
+name = "cidrlist-garzola"
 version = "0.0.1"
 authors = [
   { name="Gustavo Arzola", email="gustavo@xcode.com" },
@@ -18,5 +18,5 @@ classifiers = [
 ]
 
 [project.urls]
-"Homepage" = "https://github.com/gaarzola/cidrlist"
+"Homepage" = "https://github.com/garzola/cidrlist"
 "Bug Tracker" = "https://github.com/garzola/cidrlist/issues"
