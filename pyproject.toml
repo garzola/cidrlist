@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "cidrlist_garzola"
+version = "0.0.1"
+authors = [
+  { name="Gustavo Arzola", email="gustavo@xcode.com" },
+]
+description = "Django and Flask support a list of allowed hosts for debugging and admin purposes.  CIDRlist looks like a list and supports the 'in' operator.  This ends up allowing a list of networks and hosts for these lists.  It can also be used in any place where you want to check if a host is contained in a list of hosts and networks.  CIDRlist supports both IPv4 and IPv6 at the same time for both hosts and networks."
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/gaarzola/cidrlist"
+"Bug Tracker" = "https://github.com/garzola/cidrlist/issues"
